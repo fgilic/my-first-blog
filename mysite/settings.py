@@ -76,9 +76,9 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.contrib.gis.db.backends.postgis',
+        'ENGINE': 'django.db.backends.sqlite3',
         'NAME': 'dj_ts',
-	'USER': 'frane',
+	    'USER': 'frane',
         'PASSWORD': 'frane',
         'HOST': '127.0.0.1',
         'PORT': 5432
